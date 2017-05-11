@@ -22,3 +22,4 @@ ENV LD_LIBRARY_PATH /build/bin/gcc/bin:$LD_LIBRARY_PATH
 
 RUN gcc -v
 RUN gcc bytes_decl.go bytes.go -flto -o a.out ; true
+
